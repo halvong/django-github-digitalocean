@@ -1,5 +1,7 @@
 django-github-digitalocean
-4/13/2021, Mon.
+4/14/2021, Tues
+
+GitHub Actions
 
 #tutorial
 https://testdriven.io/blog/deploying-django-to-digitalocean-with-docker-and-github-actions/
