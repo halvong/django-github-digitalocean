@@ -2,6 +2,7 @@ django-github-digitalocean
 4/15/2021, Tues
 
 GitHub Actions
+add G_TOKEN in secrets.
 
 #tutorial
 https://testdriven.io/blog/deploying-django-to-digitalocean-with-docker-and-github-actions/
