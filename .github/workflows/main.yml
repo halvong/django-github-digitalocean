@@ -66,7 +66,7 @@ jobs:
           echo WEB_IMAGE=${{ env.WEB_IMAGE }} >> .env
           echo NGINX_IMAGE=${{ env.NGINX_IMAGE }} >> .env
           echo GITHUB_ACTOR=${GITHUB_ACTOR} >> .env
-          echo GITHUB_TOKEN=${{ secrets.G_TOKEN }} >> .env
+          echo GITHUB_TOKEN=${GITHUB_TOKEN} >> .env
       - name: Add the private SSH key to the ssh-agent
         env:
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
